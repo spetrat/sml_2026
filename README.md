@@ -76,7 +76,7 @@ git config --global user.email
 
 When you first clone or push to a GitHub repository, GitHub needs to authenticate you. GitHub supports both **HTTPS and SSH** for Git operations.
 
-When Git asks you to authenticate, follow the GitHub/browser authentication instructions. GitHub no longer accepts your normal account password for Git operations over HTTPS.
+When Git asks you to authenticate, follow the GitHub/browser authentication instructions. GitHub no longer accepts your normal account password for Git operations over HTTPS. SSH setup is the most convenient.
 
 If you have trouble authenticating, the [GitHub authentication documentation](https://docs.github.com/en/authentication) provides further instructions.
 
@@ -124,6 +124,12 @@ Create a **new private repository** on GitHub. Do not initialize it with a READM
 
 ## 2. Clone the course repository
 
+For ssh authentication:
+```bash
+git clone git@github.com:spetrat/sml_2026.git
+cd sml_2026
+```
+For https authentication:
 ```bash
 git clone https://github.com/spetrat/sml_2026.git
 cd sml_2026
@@ -137,6 +143,11 @@ git remote rename origin upstream
 
 ## 3. Add your private repository as `origin`
 
+For ssh authentication:
+```bash
+git remote add origin git@github.com:YOUR-USERNAME/YOUR-PRIVATE-REPOSITORY.git```
+
+For https authentication:
 ```bash
 git remote add origin https://github.com/YOUR-USERNAME/YOUR-PRIVATE-REPOSITORY.git
 ```
