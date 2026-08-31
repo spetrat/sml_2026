@@ -6,7 +6,18 @@ See the [course website](https://math.constructor.university/petrat/teaching/202
 Helpful links:
 * For an introduction to Scientific Python, you can refer to this [Introduction](https://mids.ku.de/oliver/teaching/scipy-intro/scipy-intro.pdf), written by Marcel Oliver ([html link](https://mids.ku.de/oliver/teaching/scipy-intro/scipy-intro/index.html)). (It is a bit old, but still very good.)
 * [Understanding git conceptually](http://www.sbf5.com/~cduan/technical/git/), an excellent general introduction to git by Charles Duan.
+* For an introduction to using and properly setting up git (written for an older version of this class), see [Introduction to git for academics](https://bitbucket.org/marcel_oliver/git_for_academics/)
 
+---
+
+Below, you find detailed instructions for using git and github for this course:
+- [Installing and Configuring Git](#installing-and-configuring-git)
+- [Setup Git for the Course](#setup-git-for-the-course)
+- [Normal Workflow](#normal-workflow)
+- [Quick Reference](#quick-reference)
+- [Troubleshooting](#troubleshooting)
+
+---
 
 # Installing and Configuring Git
 
@@ -77,14 +88,13 @@ You can check your Git configuration with:
 git config --global --list
 ```
 
-You are now ready to set up your course repository. Continue with the [Git Workflow for the Course](#git-workflow-for-the-course).
+You are now ready to set up your course repository. Continue with [Setup Git for the Course](#setup-git-for-the-course).
 
 
+---
 
 
-
-
-# Git Workflow for the Course
+# Setup Git for the Course
 
 Each student will use two GitHub repositories:
 
@@ -221,7 +231,7 @@ origin   = your private repository
 
 **Pull from `upstream`; push your work to `origin`.**
 
-
+---
 
 # Troubleshooting
 
@@ -338,9 +348,3 @@ git log --oneline # What have I committed?
 ```
 
 **When in doubt, don't delete or reset anything. Run `git status` and ask the instructor or TA for help.**
-
-
-
-# Further Links
-
-* For an introduction to using and properly setting up git (written for an older version of this class), see [Introduction to git for academics](https://bitbucket.org/marcel_oliver/git_for_academics/)
