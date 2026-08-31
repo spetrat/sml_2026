@@ -27,7 +27,7 @@ Before starting the course, you need to install Git and configure it with your n
 
 If you do not already have one, create an account at GitHub:
 
-[GitHub](https://github.com/?utm_source=chatgpt.com)
+[GitHub](https://github.com/)
 
 You will need a GitHub account to access your private course repository.
 
